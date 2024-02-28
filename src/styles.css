@@ -1,0 +1,71 @@
+body {
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+#root {
+    display: grid;
+    place-items: center;
+}
+
+.start-game {
+    height: 50px;
+    width: auto;
+    margin: 3px;
+
+    border-radius: 5px;
+    border-width: 1px;
+
+    font-size: inherit;
+    font-family: inherit;
+
+    text-align: center;
+}
+
+.start-game:hover {
+    background: rgb(177, 177, 177);
+}
+
+.game {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    place-items: center;
+}
+
+.game button {
+    width: 50px;
+    height: 50px;
+    margin: 3px;
+    
+    border-radius: 5px;
+    border-width: 1px;
+
+    font-size: inherit;
+    font-family: inherit;
+
+    text-align: center;
+}
+
+.game button:hover {
+    background: rgb(177, 177, 177);
+}
+
+.flipped button {
+    background: lightblue;
+}
+
+.flipped button:hover {
+    background: lightblue;
+}
+
+.solved button {
+    background: lightgreen;
+}
+
+.solved button:hover {
+    background: lightgreen;
+}
+
+p {
+    font-size: 18px;
+}
